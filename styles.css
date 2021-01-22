@@ -1,0 +1,46 @@
+#keys {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 200px 0px 200px;
+    justify-content: space-between;
+}
+
+body {
+    background-image: linear-gradient(to right, #000000 0%, #a0a0a0 100%);;
+}
+
+main {
+    position: absolute;
+    width: 99%;
+    top: 50%;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    color: blanchedalmond;
+    border: solid #FFF;
+    border-width: 3px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px 1px rgba(255, 235, 205, 0.5);
+    transition: all 100ms;
+}
+
+.playing {
+    transform: scale(1.3);
+    border: solid rgb(220, 200, 80);
+    box-shadow: 0px 0px 10px 1px rgb(220, 200, 80);
+    border-width: 3px;
+}
+kbd {
+    display: block;
+    font-size: 40px;
+}
+
+span {
+    color: rgb(220, 200, 80);
+    text-shadow: 0px 0px 2px rgb(220, 200, 80);;
+}
